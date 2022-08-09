@@ -54,7 +54,7 @@ public class PredicateAndFunction {
 				"sdsdssdfkds"
 				);
 		
-		names.stream().filter(Filter.nameStartWithPrefix("s"))
+		names.stream().filter(Filter.nameStartWithPrefix("sdf"))
 		.map(Mapper.getDistinctCharactersCount())
 		.forEachOrdered(System.out::println);
 	}

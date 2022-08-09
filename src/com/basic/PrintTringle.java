@@ -1,5 +1,16 @@
 package com.basic;
 
+/**
+ * 
+ * @author rparjapati
+ *
+ *
+ 	 *
+ 	***
+   *****
+ *
+ */
+
 public class PrintTringle {
 
 	public static void main(String[] args) {

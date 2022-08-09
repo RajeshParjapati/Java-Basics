@@ -50,9 +50,19 @@ class Result {
 			e.printStackTrace();
 		}
 		
+		int startinx = content.indexOf("\"callingCodes\":[");
+		int endind = content.indexOf("\"],\"cap");
+		String str1 = content.substring(startinx+16, endind+1);
+		System.out.println(str1);
+		System.out.println(startinx);
+		System.out.println(endind);
 		return content.toString();
 		
+		
+		
 	}
+	
+	
 	
 }
 
